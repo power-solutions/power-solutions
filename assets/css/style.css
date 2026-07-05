@@ -592,6 +592,11 @@ section {
     animation: heroFadeUp 0.7s var(--ease) 0.4s forwards;
 }
 
+.hero-description {
+    margin-bottom: 35px;
+    font-style: italic;
+}
+
 .hero-buttons {
     display: flex;
     gap: 20px;
@@ -1843,12 +1848,13 @@ section {
     }
 
     .hero-buttons {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
     }
 
     .hero-buttons .btn {
         width: 100%;
+        font-size: 12px;
     }
 
     .hero-control {
