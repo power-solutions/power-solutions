@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Power Solutions - Class 'A' Licensed Electrical Contractor. Professional LT & HT Electrical Works, Panel Manufacturing, and Electrical Supply in Kharar, Punjab">
+    <meta name="keywords" content="electrical works, LT panel, HT panel, electrical cables, Kharar electrician, licensed electrical contractor punjab">
+    <title>Power Solutions - Class 'A' Licensed Electrical Contractor | Mohali, Punjab</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         CREDENTIAL / UTILITY BAR
+    ========================================= -->
+    <div class="topbar" id="topbar">
+        <div class="container topbar-content">
+            <div class="topbar-badge">
+                <i class="fas fa-certificate"></i>
+                <span class="topbar-badge-text">
+                    <strong>Class "A" Licensed Electrical Contractor</strong>
+                    <span class="topbar-divider">•</span>
+                    <span>Government of Punjab Certified</span>
+                </span>
+            </div>
+            <div class="topbar-contact">
+                <a href="tel:+916283027340"><i class="fas fa-phone"></i> +91 6283027340</a>
+                <a href="mailto:powersolutions@zohomail.in"><i class="fas fa-envelope"></i> powersolutions@zohomail.in</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         HEADER SECTION - Sticky Navigation
+    ========================================= -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html"><img src="assets/imgs/logo.svg" alt="Power Solutions" id="header-logo"></a>
+                    <span>Power Solutions</span>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="nav" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- CTA Button -->
+                <a href="#contact" class="btn btn-primary header-cta"><span>Get Quote</span></a>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================
+         HERO SECTION - Slider
+    ========================================= -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <!-- Slide 1 -->
+            <div class="hero-slide active">
+                <div class="hero-overlay"></div>
+                <div class="hero-image"
+                    style="background-image: url('assets/imgs/banners/banner-1.webp')">
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="hero-eyebrow"><i class="fas fa-shield-halved"></i> Government of Punjab Certified</span>
+                        <h1 class="hero-title">Professional Electrical <span>Solutions</span></h1>
+                        <p class="hero-subtitle">LT & HT Works | Panel Manufacturing | Automation Works</p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-primary"><span>Our Services</span></a>
+                            <a href="#contact" class="btn btn-secondary"><span>Contact Us</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-image"
+                    style="background-image: url('assets/imgs/banners/banner-2.webp')">
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="hero-eyebrow"><i class="fas fa-shield-halved"></i> Class "A" Licensed Contractor</span>
+                        <h1 class="hero-title">Authorized Dealer of <span>Premium Brands</span></h1>
+                        <p class="hero-subtitle">Havells | ABB | Schneider | L&T | Siemens | Polycab</p>
+                        <div class="hero-buttons">
+                            <a href="#brands" class="btn btn-primary"><span>View Brands</span></a>
+                            <a href="#contact" class="btn btn-secondary"><span>Get Quote</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-image"
+                    style="background-image: url('assets/imgs/banners/banner-3.webp')">
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <span class="hero-eyebrow"><i class="fas fa-shield-halved"></i> MSME Registered</span>
+                        <h1 class="hero-title">Government Approved <span>Contractor</span></h1>
+                        <p class="hero-subtitle">MSME Registered | GST Compliant | Quality Assured</p>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-primary"><span>About Us</span></a>
+                            <a href="#contact" class="btn btn-secondary"><span>Contact Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <button class="hero-control prev" id="hero-prev" aria-label="Previous slide">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="hero-control next" id="hero-next" aria-label="Next slide">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <!-- Slider Indicators -->
+        <div class="hero-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+
+        <!-- Scroll cue -->
+        <a href="#services" class="scroll-cue" aria-label="Scroll to services">
+            <span class="scroll-cue-mouse"><span class="scroll-cue-dot"></span></span>
+            <span class="scroll-cue-label">Scroll</span>
+        </a>
+    </section>
+
+    <!-- ========================================
+         STATS / TRUST STRIP
+    ========================================= -->
+    <section class="stats-strip" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number"><span class="stat-count" data-count="15">0</span>+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="stat-count" data-count="500">0</span>+</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="stat-count" data-count="12">0</span>+</div>
+                    <div class="stat-label">Authorized Brand Partners</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="stat-count" data-count="100">0</span>%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES SECTION - Card Grid
+    ========================================= -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive electrical solutions for industrial and commercial needs</p>
+            </div>
+
+            <div class="services-grid" id="services-grid">
+                <!-- Service cards will be dynamically inserted here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICE DETAIL MODAL/POPUP
+    ========================================= -->
+    <div class="modal" id="service-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3 class="modal-title">Service Title</h3>
+                <p class="modal-description">Service description goes here...</p>
+                <div class="modal-features">
+                    <h4>Key Features:</h4>
+                    <ul class="modal-list">
+                        <!-- Features will be inserted dynamically -->
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#contact" class="btn btn-primary" id="modal-contact"><span>Request Quote</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PROJECTS SECTION - Gallery Grid
+    ========================================= -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Our Work</span>
+                <h2 class="section-title">Our Projects</h2>
+                <p class="section-subtitle">Delivering excellence across industrial and commercial installations</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/projects/prokect-1.webp"
+                            alt="Industrial Panel Installation" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-tag">Industrial</span>
+                                <h3>Industrial Panel Installation</h3>
+                                <p>Complete LT panel setup for manufacturing facility</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/projects/project-2.webp"
+                            alt="Commercial Wiring" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-tag">Commercial</span>
+                                <h3>Commercial Complex Wiring</h3>
+                                <p>Complete electrical installation for 5-story building</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/imgs/projects/project-3.webp"
+                            alt="Street Light Installation" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-tag">Municipal</span>
+                                <h3>Street Light Installation</h3>
+                                <p>LED street light poles for residential colony</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         BRANDS & PARTNERS SECTION
+    ========================================= -->
+    <section class="brands" id="brands">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Trusted Partnerships</span>
+                <h2 class="section-title">Authorized Dealer & Partner</h2>
+                <p class="section-subtitle">We work with industry-leading brands for quality assurance</p>
+            </div>
+
+            <div class="brands-content">
+                <!-- Cables & Electrical -->
+                <div class="brand-category">
+                    <h3 class="brand-category-title">Cables & Electrical</h3>
+                    <div class="brand-list">
+                        <div class="brand-item">Havells</div>
+                        <div class="brand-item">Polycab</div>
+                        <div class="brand-item">KEI</div>
+                        <div class="brand-item">RR Cable</div>
+                        <div class="brand-item">Finolex</div>
+                        <div class="brand-item">V-Guard</div>
+                        <div class="brand-item">Universal</div>
+                    </div>
+                </div>
+
+                <!-- Switchgear -->
+                <div class="brand-category">
+                    <h3 class="brand-category-title">Switchgear & Panels</h3>
+                    <div class="brand-list">
+                        <div class="brand-item">ABB</div>
+                        <div class="brand-item">L&T</div>
+                        <div class="brand-item">Schneider</div>
+                        <div class="brand-item">Siemens</div>
+                        <div class="brand-item">Havells</div>
+                        <div class="brand-item">C&S</div>
+                        <div class="brand-item">Legrand</div>
+                    </div>
+                </div>
+
+                <!-- Switches & Sockets -->
+                <div class="brand-category">
+                    <h3 class="brand-category-title">Switches & Sockets</h3>
+                    <div class="brand-list">
+                        <div class="brand-item">Anchor</div>
+                        <div class="brand-item">Goldmedal</div>
+                        <div class="brand-item">L&T</div>
+                        <div class="brand-item">GM Modular</div>
+                        <div class="brand-item">Wipro</div>
+                        <div class="brand-item">Schneider</div>
+                        <div class="brand-item">ABB</div>
+                        <div class="brand-item">Legrand</div>
+                        <div class="brand-item">Havells</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ABOUT SECTION
+    ========================================= -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800"
+                        alt="Power Solutions Team" loading="lazy">
+                    <div class="about-image-badge">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <strong>Class "A" Licensed</strong>
+                            <span>Govt. of Punjab Certified</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="eyebrow">Who We Are</span>
+                    <h2 class="section-title">About Power Solutions</h2>
+                    <p class="about-description">
+                        Power Solutions is a government-approved electrical contractor specializing in comprehensive
+                        electrical services for industrial, commercial, and residential sectors. With years of expertise
+                        in LT & HT electrical works, panel manufacturing, and we have established
+                        ourselves as a trusted name in the industry.
+                    </p>
+                    <p class="about-description">
+                        As an MSME-registered enterprise and authorized dealer of premium brands like ABB, Schneider,
+                        Havells, L&T, and Siemens, we ensure quality, reliability, and compliance in every project we
+                        undertake.
+                    </p>
+
+                    <!-- Key Features -->
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>MSME Registered</h4>
+                                <p>Government of India Enterprise</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>GST Compliant</h4>
+                                <p>Registered & Verified</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Certified Professionals</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-thumbs-up"></i>
+                            <div>
+                                <h4>Quality Service</h4>
+                                <p>Premium Brand Partners</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TESTIMONIALS SECTION - Simple Slider
+    ========================================= -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Client Feedback</span>
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about our services</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonials-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left testimonial-quote-icon"></i>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Power Solutions handled our complete factory electrical installation with utmost
+                            professionalism. Their team is knowledgeable, punctual, and the quality of work is
+                            exceptional. Highly recommended for industrial projects."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">RK</div>
+                            <div>
+                                <h4>Rajesh Kumar</h4>
+                                <p>Manufacturing Unit Owner</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left testimonial-quote-icon"></i>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "We've been using Power Solutions for our LT & HT maintenance for the past 3 years.
+                            Their service is reliable, and they use genuine parts from authorized brands. Very satisfied
+                            with their work."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">PS</div>
+                            <div>
+                                <h4>Priya Sharma</h4>
+                                <p>Facility Manager, Tech Park</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left testimonial-quote-icon"></i>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Excellent service for our commercial building's electrical panel installation. The team was
+                            professional, completed work on time, and provided proper documentation. Will definitely
+                            work with them again."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">AS</div>
+                            <div>
+                                <h4>Amit Singh</h4>
+                                <p>Real Estate Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Controls -->
+                <button class="testimonial-control prev" id="testimonial-prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-control next" id="testimonial-next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTACT SECTION - Form UI
+    ========================================= -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Get In Touch</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Request a quote or contact us for your electrical needs</p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:6283027340">+91 6283027340</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp cstmWPfab"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="https://wa.me/916283027340" target="_blank">+91 6283027340</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:powersolutions@zohomail.in">powersolutions@zohomail.in</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>16, Sawraj Enclave, Near Shivalik City<br>Kharar – 140301, Punjab, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-credential">
+                        <i class="fas fa-award"></i>
+                        <span>Class "A" Licensed Electrical Contractor — Government of Punjab Certified</span>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="lt-ht">LT & HT Electrical Works</option>
+                                <option value="panel">Panel Manufacturing</option>
+                                <option value="automation">Automation Works</option>
+                                <option value="supply">Electrical Supply</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Describe your requirements"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block"><span>Submit Inquiry</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA FOOTER -->
+     <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-badge"><i class="fas fa-certificate"></i> Class "A" Licensed • Govt. of Punjab Certified</span>
+                <h2 class="cta-heading">Ready to Transform Your Business?</h2>
+
+                <p class="cta-subheading">Join hundreds of satisfied clients who trust us to deliver scalable, proven infrastructure solutions.</p>
+
+                <div class="cta-button-container">
+                    <a href="tel:+916283027340" class="btn btn-get-started">
+                        <span class="btn-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="btn-text">
+                            <span class="btn-main-text">Make a Call</span>
+                        </span>
+                        <span class="btn-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Confidential</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Proven Results</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER SECTION
+    ========================================= -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/imgs/footer-logo.svg" alt="Power Solutions" id="footer-logo"></a>
+                        <span>Power Solutions</span>
+                    </div>
+                    <p class="footer-description">
+                        Professional electrical contractor specializing in LT & HT works, panel manufacturing, and
+                        comprehensive electrical solutions.
+                    </p>
+                    <div class="footer-compliance">
+                        <div class="compliance-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>UDYAM: UDYAM-PB-20-0103957</span>
+                        </div>
+                        <div class="compliance-item">
+                            <i class="fas fa-file-invoice"></i>
+                            <span>GSTIN: 03BFVPT8691B1ZB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i>Home</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Services</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i>Projects</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i>About Us</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>LT & HT Electrical Works</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Panel Manufacturing</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Earthing Materials</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Automation Works</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i>Street Lightning</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>16, Sawraj Enclave, Near Shivalik City, Kharar – 140301</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:6283027340">+91 6283027340</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp cstmWPfa"></i>
+                            <a href="https://wa.me/916283027340" target="_blank">
+                                +91 6283027340
+                            </a>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:powersolutions@zohomail.in">powersolutions@zohomail.in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Power Solutions. All Rights Reserved. | A Government of India Enterprise (MSME
+                    Registered)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/916283027340" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

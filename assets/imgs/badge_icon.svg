@@ -1,0 +1,66 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="512" height="512" fill="#FFFFFF"/>
+
+  <g fill="#1A1A1A">
+    <!-- Ribbon tails -->
+    <path d="M180 300 L120 460 L200 440 L230 480 L260 340 Z"/>
+    <path d="M332 300 L392 460 L312 440 L282 480 L252 340 Z"/>
+
+    <!-- Scalloped badge outer edge -->
+    <path d="
+      M256 90
+      L276 108
+      L302 100
+      L312 126
+      L340 128
+      L340 156
+      L364 170
+      L354 196
+      L370 220
+      L350 240
+      L358 266
+      L332 274
+      L326 300
+      L298 296
+      L280 316
+      L256 300
+      L232 316
+      L214 296
+      L186 300
+      L180 274
+      L154 266
+      L162 240
+      L142 220
+      L158 196
+      L148 170
+      L172 156
+      L172 128
+      L200 126
+      L210 100
+      L236 108
+      Z
+    "/>
+
+    <!-- Inner circle (cut out to show white) -->
+    <circle cx="256" cy="203" r="88" fill="#FFFFFF"/>
+
+    <!-- Ring detail -->
+    <circle cx="256" cy="203" r="88" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+
+    <!-- Star -->
+    <path d="
+      M256 152
+      L268 190
+      L308 190
+      L276 213
+      L288 251
+      L256 228
+      L224 251
+      L236 213
+      L204 190
+      L244 190
+      Z
+    " fill="#1A1A1A"/>
+  </g>
+</svg>
